@@ -45,8 +45,7 @@ bash .claude/skills/study-rewrite/scripts/check_tools.sh
 
    With a user-level install, the template is at `~/.claude/skills/study-rewrite/assets/request-template.md`.
 
-   > [!TIP]
-   > Not sure how to start? Type `/study-rewrite` with no argument: Claude explains the usage and offers to copy the template into a new folder for you.
+   > **Tip:** not sure how to start? Type `/study-rewrite` with no argument: Claude explains the usage and offers to copy the template into a new folder for you.
 
 2. Edit `request.md`. Only **Topic** is required. **Sources**, **Goal**, **Scope**, **Already know** and **Overrides** are optional, and free text works too.
 
