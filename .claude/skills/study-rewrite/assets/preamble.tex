@@ -1,0 +1,21 @@
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\usepackage{booktabs}
+\usepackage[most]{tcolorbox}
+\setlength{\parskip}{0.45em}
+\newcommand{\qibox}[3]{\newtcolorbox{#1}[1]{breakable, enhanced, colback=#2!5, colframe=#2!60!black,
+  coltitle=white, fonttitle=\bfseries\small, title={##1}, left=6pt, right=6pt, top=4pt, bottom=4pt,
+  before skip=8pt, after skip=8pt, boxrule=0.6pt, arc=2pt, #3}}
+\qibox{refresherbox}{blue}{}
+\qibox{examplebox}{teal}{}
+\qibox{whybox}{orange}{}
+\qibox{deeperbox}{gray}{}
+\qibox{keyideabox}{violet}{}
+\qibox{walkthroughbox}{brown}{}
+\qibox{practicebox}{olive}{}
+\qibox{incodebox}{cyan}{}
+\qibox{wrongbox}{red}{}
+\qibox{historybox}{magenta}{}
+\qibox{studybox}{cyan!70!black}{}
+\usepackage{float}
+\floatplacement{figure}{H}
