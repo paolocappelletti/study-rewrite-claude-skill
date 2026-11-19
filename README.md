@@ -26,9 +26,12 @@ cp -r .claude/skills/study-rewrite <your-project>/.claude/skills/
 
 ### Requirements
 
+> [!IMPORTANT]
+> You don't have to check these yourself. On every run the skill starts with `scripts/check_tools.sh`. If something is missing, Claude shows you the install commands (Debian/Ubuntu/WSL) and waits..
+
 pandoc ≥ 3, XeLaTeX (with `tcolorbox`, `fvextra`, `booktabs`, `float`), the Latin Modern and DejaVu fonts, Graphviz, Mermaid CLI (`mmdc`), Node ≥ 22.18, Python 3 with numpy, matplotlib and Pillow, and `pdftoppm` (poppler-utils). Go, Java and Rust are optional.
 
-You don't have to check these yourself. On every run the skill starts with `scripts/check_tools.sh`. If something is missing, Claude shows you the install commands (Debian/Ubuntu/WSL) and waits. You can also run the check directly:
+ You can also run the check directly:
 
 ```bash
 bash .claude/skills/study-rewrite/scripts/check_tools.sh
